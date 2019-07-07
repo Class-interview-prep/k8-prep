@@ -4,9 +4,9 @@ metadata:
   name: kuard-rs-test-nodeport-service
 spec:
   type: NodePort
+  externalTrafficPolicy: Local
   ports:
   - name: http
-    externalTrafficPolicy: Local
     nodePort: 32080 # Listening port on External IPs
     port: 8080 # Listening port on Internal IPs
     protocol: TCP
