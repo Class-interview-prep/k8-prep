@@ -21,3 +21,4 @@ spec:
     spec:
       containers:
       - image: ikambarov/web-app:1.0.0
+        name: web-app
