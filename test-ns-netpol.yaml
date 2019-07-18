@@ -10,5 +10,5 @@ spec:
   - from:
     - namespaceSelector:
         matchLabels:
-          env: johns
+          env: dev-johns
 
